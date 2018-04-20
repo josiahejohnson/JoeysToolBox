@@ -1,0 +1,1 @@
+﻿{Get-AppxPackage -AllUsers | where {$_.publisher -notmatch "Microsoft"} | remove-appxPackage |  out-null }
